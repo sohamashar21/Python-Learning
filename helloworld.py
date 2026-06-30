@@ -23,3 +23,5 @@ print(type('Soham Ashar'))          # String
 print(type([1,2,3]))                # List
 print(type({'name':'Soham Ashar'})) # Dictionary
 print(type(('soham',8.71,8.8)))     # Tuple
+
+######
