@@ -1,5 +1,5 @@
 #INTRO
-# DAY1 - 30DaysOfPython Challange
+# DAY1 - 30DaysOfPython Challange 
 
 print("Hello World!")
 
@@ -24,4 +24,3 @@ print(type([1,2,3]))                # List
 print(type({'name':'Soham Ashar'})) # Dictionary
 print(type(('soham',8.71,8.8)))     # Tuple
 
-######
