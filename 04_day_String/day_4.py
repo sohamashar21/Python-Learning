@@ -21,3 +21,47 @@ multiline_string = """I am a teacher and enjoy teaching.
 I didn't find anything as rewarding as empowering people.
 That is why I created 30 days of python."""
 print(multiline_string)
+
+
+# String Concatenation
+first_name = 'Soham'
+last_name = 'Ashar'
+space = ' '
+full_name = first_name + space + last_name
+print(full_name)  # Soham Ashar
+# Checking length of a string using len() builtin function
+print(len(first_name))  # 5
+print(len(last_name))   # 5
+print(len(first_name) > len(last_name))  # false
+print(len(full_name))  # 11
+
+
+# Unpacking characters
+language = 'Python'
+a, b, c, d, e, f = language  # unpacking sequence characters into variables
+print(a)  # P
+print(b)  # y
+print(c)  # t
+print(d)  # h
+print(e)  # o
+print(f)  # n
+
+
+# Accessing characters in strings by index
+language = 'Python'
+first_letter = language[0]
+print(first_letter)  # P
+second_letter = language[1]
+print(second_letter)  # y
+print(len(language))
+last_index = len(language) - 1
+last_letter = language[last_index]
+print(last_letter)  # n
+
+
+# If we want to start from right end we can use negative indexing. -1 is the last index
+language = 'Python'
+last_letter = language[-1]
+print(last_letter)  # n
+second_last = language[-2]
+print(second_last)  # o
