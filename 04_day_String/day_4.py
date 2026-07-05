@@ -65,3 +65,34 @@ last_letter = language[-1]
 print(last_letter)  # n
 second_last = language[-2]
 print(second_last)  # o
+
+
+
+# Slicing
+
+language = 'Python'
+# starts at zero index and up to 3 but not include 3
+first_three = language[0:3]
+last_three = language[3:6]
+print(last_three)  # hon
+# Another way
+last_three = language[-3:]
+print(last_three)   # hon
+last_three = language[3:]
+print(last_three)   # hon
+
+# Skipping character while splitting Python strings
+language = 'Python'
+pto = language[0:6:2]
+print(pto)  # pto
+
+
+# Escape sequence
+print('I hope every one enjoying the python challenge.\nDo you ?')  # line break
+print('Days\tTopics\tExercises')
+print('Day 1\t3\t5')
+print('Day 2\t3\t5')
+print('Day 3\t3\t5')
+print('Day 4\t3\t5')
+print('This is a back slash  symbol (\\)')  # To write a back slash
+print('In every programming language it starts with \"Hello, World!\"')
